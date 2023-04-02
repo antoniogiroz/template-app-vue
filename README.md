@@ -1,4 +1,4 @@
-# template-vite-vue-ts
+# template-app-vue
 
 [![CI](https://github.com/antoniogiroz/template-app-vue/actions/workflows/ci.yml/badge.svg)](https://github.com/antoniogiroz/template-app-vue/actions/workflows/ci.yml)
 
