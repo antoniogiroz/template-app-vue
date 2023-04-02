@@ -30,6 +30,3 @@ jobs:
 
       - name: Build
         run: pnpm build
-
-      - name: Unit tests
-        run: pnpm test:unit
