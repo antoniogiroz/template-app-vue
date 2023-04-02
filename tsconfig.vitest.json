@@ -1,9 +1,10 @@
 {
   "extends": "./tsconfig.app.json",
+  "include": ["env.d.ts", "src/**/*", "tests/unit/**/*"],
   "exclude": [],
   "compilerOptions": {
     "composite": true,
     "lib": [],
-    "types": ["node", "jsdom"]
+    "types": ["node", "jsdom", "@testing-library/jest-dom"]
   }
 }

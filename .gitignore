@@ -14,15 +14,23 @@ dist-ssr
 coverage
 *.local
 
-/cypress/videos/
-/cypress/screenshots/
+.husky/_
+
+/test-results/
+/playwright-report/
+/playwright/.cache/
+tests/e2e/reports
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+/test-results/
+/playwright-report/
+/playwright/.cache/
