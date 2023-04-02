@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "customSyntax": "postcss-syntax",
+  "rules": {
+    "selector-id-pattern": null,
+    "selector-class-pattern": null,
+    "declaration-colon-newline-after": "always-multi-line",
+    "max-line-length": 150,
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "define-mixin",
+          "mixin"
+        ]
+      }
+    ]
+  }
+}

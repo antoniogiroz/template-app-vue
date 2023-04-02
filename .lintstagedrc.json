@@ -1,0 +1,8 @@
+{
+  "*.{json,yaml,yml,md,js,ts,vue}": [
+    "eslint --fix"
+  ],
+  "*.css": [
+    "stylelint src/**/*.css --fix"
+  ]
+}
