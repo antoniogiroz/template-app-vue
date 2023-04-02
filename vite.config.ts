@@ -1,7 +1,10 @@
 import { fileURLToPath, URL } from 'node:url';
 import vue from '@vitejs/plugin-vue';
 import unocss from 'unocss/vite';
+// eslint-disable-next-line import/no-unresolved
 import autoImport from 'unplugin-auto-import/vite';
+// eslint-disable-next-line import/no-unresolved
+import components from 'unplugin-vue-components/vite';
 import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
@@ -16,8 +19,12 @@ export default defineConfig({
         filepath: '.eslintrc-auto-import.json',
         globalsPropValue: true,
       },
-      dts: true,
+      dts: 'src/auto-imports.d.ts',
       vueTemplate: true,
+    }),
+
+    components({
+      dts: 'src/components.d.ts',
     }),
 
     unocss(),

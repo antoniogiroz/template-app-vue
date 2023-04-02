@@ -1,11 +1,3 @@
 {
-  "extends": ["@antoniogiroz", "./.eslintrc-auto-import.json"],
-  "rules": {
-    "import/no-unresolved": [
-      "error",
-      {
-        "ignore": ["uno.css", "unplugin-auto-import/vite"]
-      }
-    ]
-  }
+  "extends": ["@antoniogiroz", "./.eslintrc-auto-import.json"]
 }
