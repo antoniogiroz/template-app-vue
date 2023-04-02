@@ -1,5 +1,9 @@
 # template-vite-vue-ts
 
+[![CI](https://github.com/antoniogiroz/template-app-vue/actions/workflows/ci.yml/badge.svg)](https://github.com/antoniogiroz/template-app-vue/actions/workflows/ci.yml)
+
+[![Tests](https://github.com/antoniogiroz/template-app-vue/actions/workflows/tests.yml/badge.svg)](https://github.com/antoniogiroz/template-app-vue/actions/workflows/tests.yml)
+
 This template should help get you started developing apps with Vue 3 in Vite with a simple architecture.
 
 ## Project Setup
