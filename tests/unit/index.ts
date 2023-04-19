@@ -1,3 +1,4 @@
+import { VueQueryPlugin } from '@tanstack/vue-query';
 import UserEvent from '@testing-library/user-event';
 import type { RenderOptions, RenderResult } from '@testing-library/vue';
 import { render as tlRender } from '@testing-library/vue';
@@ -16,8 +17,8 @@ export function render(testComponent: unknown, options: RenderOptions = {}): Ren
     ...tlRender(testComponent, {
       ...options,
       global: {
-        plugins: [router],
-        stubs: { RouterLink: RouterLinkStub },
+        ...options?.global,
+        plugins: [VueQueryPlugin],
       },
     }),
   };
@@ -28,7 +29,8 @@ export function renderWithRouter(testComponent: unknown, options: RenderOptions 
     ...render(testComponent, {
       ...options,
       global: {
-        plugins: [router],
+        ...options?.global,
+        plugins: [VueQueryPlugin, router],
         stubs: { RouterLink: RouterLinkStub },
       },
     }),
