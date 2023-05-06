@@ -31,6 +31,3 @@ tests/e2e/reports
 *.njsproj
 *.sln
 *.sw?
-/test-results/
-/playwright-report/
-/playwright/.cache/
