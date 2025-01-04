@@ -1,9 +1,9 @@
-import { describe, expect, test } from 'vitest';
-import { render, screen } from '~/unit';
 import MyComponent from '@/components/HelloWorld.vue';
+import { describe, expect, it } from 'vitest';
+import { render, screen } from '~/unit';
 
-describe('HelloWorld.vue', () => {
-  test('should render correctly with props', async () => {
+describe('helloWorld.vue', () => {
+  it('should render correctly with props', async () => {
     const props = {
       msg: 'Hello, World!',
     };

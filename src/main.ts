@@ -1,8 +1,8 @@
-import { createApp } from 'vue';
 import { VueQueryPlugin } from '@tanstack/vue-query';
+import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
-// eslint-disable-next-line import/no-unresolved
+
 import 'uno.css';
 import './assets/main.css';
 

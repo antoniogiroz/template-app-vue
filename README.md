@@ -43,7 +43,7 @@ pnpm test:unit
 ```sh
 pnpm test:e2e
 ```
-#### Headless 
+#### Headless
 
 ```sh
 pnpm test:e2e:ci

@@ -12,14 +12,19 @@ node_modules
 dist
 dist-ssr
 coverage
-*.local
+junit.xml
+*.local*
+*.local.bak
+
+stats.html
 
 .husky/_
 
-/test-results/
-/playwright-report/
-/playwright/.cache/
-tests/e2e/reports
+/cypress/videos/
+/cypress/screenshots/
+
+*.tgz
+manifest.yml
 
 # Editor directories and files
 .vscode/*
@@ -31,3 +36,8 @@ tests/e2e/reports
 *.njsproj
 *.sln
 *.sw?
+
+/test-results/
+/playwright-report/
+/playwright/.cache/
+tests/e2e/reports

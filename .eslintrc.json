@@ -1,3 +1,0 @@
-{
-  "extends": ["@antoniogiroz", "./.eslintrc-auto-import.json"]
-}
