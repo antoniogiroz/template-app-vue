@@ -1,9 +1,9 @@
 import type { RenderOptions, RenderResult } from '@testing-library/vue';
-import router from '@/router';
 import { VueQueryPlugin } from '@tanstack/vue-query';
 import UserEvent from '@testing-library/user-event';
 import { render as tlRender } from '@testing-library/vue';
 import { RouterLinkStub } from '@vue/test-utils';
+import router from '@/router';
 
 interface RenderResultWithUser extends RenderResult {
   user: typeof UserEvent;

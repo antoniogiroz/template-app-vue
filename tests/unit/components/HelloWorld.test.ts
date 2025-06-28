@@ -1,5 +1,5 @@
-import MyComponent from '@/components/HelloWorld.vue';
 import { describe, expect, it } from 'vitest';
+import MyComponent from '@/components/HelloWorld.vue';
 import { render, screen } from '~/unit';
 
 describe('helloWorld.vue', () => {
